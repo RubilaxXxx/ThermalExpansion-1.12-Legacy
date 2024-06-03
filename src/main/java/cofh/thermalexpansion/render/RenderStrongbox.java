@@ -47,7 +47,7 @@ public class RenderStrongbox extends TileEntitySpecialRenderer implements IItemR
 
 	public void render(int metadata, int access, int facing, double x, double y, double z) {
 
-		RenderHelper.bindTexture(texture[metadata]);
+		RenderHelper.bindTexture(texture[1]);
 
 		GL11.glPushMatrix();
 		GL11.glTranslated(x, y + 1.0, z + 1.0);
